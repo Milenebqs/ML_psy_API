@@ -31,3 +31,5 @@ def predict(df: pd.DataFrame) -> str:
     # assert app.state.model is not None
     # X_processed = preprocess_features(X_pred)
     # return y_pred
+
+#uvicorn api.fast:app --reload
